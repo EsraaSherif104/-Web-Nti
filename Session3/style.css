@@ -1,0 +1,176 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    /* border:solid; */
+    margin: 10px;
+    color:white
+}
+.all
+{
+    width:100%;
+    height: 100%;
+    background-image: linear-gradient(aquamarine,rgb(46, 116, 127)70%,aquamarine 70%);
+    border-radius: 0px 0px 20px 20px;
+}
+div
+{
+    float:left;
+    /* border:solid; */
+}
+b
+{
+    color:black
+}
+a
+{
+    color:white
+}
+#nav-bar
+{
+width:100%;
+
+}
+.nav-logo
+{
+    width:20%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+#nav-items
+{
+width:60%;
+height: 50px;
+text-align: center;
+line-height: 50px;
+}
+li
+{
+    display: inline-block;
+    width:auto;
+    padding-left:10px
+    /* word-spacing: 20px; */
+}
+.logo
+{
+    display: inline-block;
+    width:10px;
+    height: 10px;
+    border: solid;
+    box-shadow: 4.000030517578125px 4.000007629394531px rgba(153, 71, 71);
+}
+#content
+{
+    width:100%;
+    /* height: 800px; */
+}
+.top
+{
+    border:solid;
+    display: inline-block;
+    width:50px;
+    height: 50px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
+.fa-user
+{
+    color:blue;
+    border:solid;
+    display: inline-block;
+    width:22px;
+    height: 22px;
+    border-radius: 25px;
+}
+#header
+{
+    width:100%;
+    text-align: center;
+    /* font-size:10px; */
+
+}
+h1
+{
+    font-size:2.5em;
+}
+b
+{
+    font-size:32px
+}
+.search
+{
+    width:70%;
+    margin-left:15% ;
+    background-color: white;
+        color:gray;
+        border-radius: 20px;
+
+
+}
+.icon
+{
+     width:10%;
+     padding-top: 2px;;
+}
+.fa-magnifying-glass
+{
+   
+}
+.txt
+{
+    width:60%
+}
+
+.btn
+{
+    width:30%
+}
+.search-btn
+{
+    width:100px;
+    border-radius: 20px;
+    height: 20px;
+    background-color:rgb(138, 200, 200);
+    color:white;
+    float: right;
+}
+.container
+{
+    width: 80%;
+    margin:50px 10% 0px 10%;
+    /* height: 200px; */
+    border-radius: 20px;
+    padding: 10px;
+
+}
+
+.left
+{
+    width:30%;
+    margin-right:2.5%;
+    background-image:conic-gradient(gold,yellow,white,gold,yellow,white,gold,yellow,white,gold,yellow,white,gold,yellow,white,gold);
+    color:rgb(126, 167, 167);
+    height: 200px;
+        border-radius: 20px;
+            padding: 10px;
+
+
+
+}
+.right
+{
+    width:65%;
+    margin-left: 2.5%;
+background-image:radial-gradient(white,lightskyblue,skyblue,blue,navy) ;  
+  height: 200px;
+    border-radius: 20px;
+    padding: 10px;
+
+
+}
