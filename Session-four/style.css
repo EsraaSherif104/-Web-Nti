@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+}
+table{
+    width: 100%;
+    border: solid;
+    border-collapse: collapse;
+    background-color: rgb(180, 233, 216);
+}
+th {
+    border: solid;
+    text-align: center;
+    height: 50px;
+    background-color: aqua;
+}
+
+td{
+    border: solid;
+    text-align: center;
+    width: 20%;
+    height: 50px;
+}
+p{
+    height: 50px;
+    border: solid red;
+    overflow: hidden;
+}
+body {
+  background: #fdf6f6;
+}
+
+.flower {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 50px auto;
+}
+
+.center {
+  position: absolute;
+  top: 60px;
+  left: 60px;
+  width: 80px;
+  height: 80px;
+
+  background-color: rgb(161, 95, 144);
+  border-radius: 50%;
+  z-index: 3;
+
+}
+
+.petal {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: rgb(119, 26, 57);
+  border-radius: 50%;
+}
+
+.petal.top {
+  top: 0;
+  left: 60px;
+  z-index: 2;
+}
+
+.petal.bottom {
+  bottom: 0;
+  left: 60px;
+  z-index: 1;
+}
+
+.petal.right {
+  right: 0;
+  top: 60px;
+  z-index: 1;
+}
+
+.petal.left {
+  left: 0;
+  top: 60px;
+  z-index: 2;
+} 
+.parent {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background: lightblue;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background: #dd4f4f;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  font-size: 50px;
+}
+
+.sidebar {
+  background: #694848;
+  width: 25%;
+  float: left;
+  height: 300px; /* مثال */
+  position: relative;
+  text-align: center;
+  font-size: 35px;
+  line-height: 300px;
+}
+
+.main {
+  background: #e88686;
+  width: 75%;
+  float: left;
+  height: 300px; /* نفس ارتفاع الـ sidebar */
+  position: relative;
+  text-align: center;
+  font-size: 35px;
+  line-height: 300px;
+
+
+}
+
+.footer {
+  clear: both; /* عشان ينزل تحت */
+  background: #da3535;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  font-size: 20px;
+
+}
+
+
+
