@@ -1,0 +1,114 @@
+body {
+  margin: 3%;
+  font-family: Arial, sans-serif;
+  color: #333;
+  box-sizing: border-box;
+}
+
+.top-bar {
+  position: relative;
+  width: 100%;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 20px;
+  overflow: hidden;
+}
+
+.logo {
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav {
+  float: right;
+}
+
+.nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+
+
+.hero {
+  width: 100%;
+  background: #f9f9f9;
+  overflow: hidden; /* مهم جداً */
+  padding: 20px 0;
+}
+
+.hero-text {
+  float: left;
+  width: 50%;
+  text-align: left;
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+.hero-image {
+  float: right;
+  width: 50%;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.hero-image img {
+  max-width: 80%;
+  height: auto;
+}
+
+
+.hero-text h1 {
+  font-size: 40px;
+}
+
+.hero-text p {
+  margin: 20px 0;
+  color: #666;
+}
+
+.hero-text button {
+  background: #4a90e2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.services {
+  text-align: center;
+  padding: 50px;
+  clear: both;
+}
+
+.services h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.service-items {
+  overflow: hidden;
+}
+
+.service {
+  float: left;
+  width: 33.33%;
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+.service .icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.bottom-bar {
+  text-align: center;
+  padding: 20px;
+  background: #f1f1f1;
+  clear: both;
+}
