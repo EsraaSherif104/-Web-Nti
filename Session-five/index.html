@@ -1,36 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms and Flex</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <form>
-        <fieldset>
-            <legend>Pesrson info</legend>
-            <table>
-                <tr>
-                    <td><label>User name</label></td>
-                    <td><input type="text" placeholder="enter your username" value="esraa"></td>
-                </tr>
-                <tr>
-                    <td><label>Password</label></td>
-                    <td><input type="password"></td>
-                </tr>
-               <tr>
-                <td><label>Email</label></td>
-                <td><input type="email" placeholder="enter your password"></td>
-               </tr>
-               <tr>
-                <td><label>Age</label></td>
-                <td><input type="number" placeholder="enter your age"></td>
-               </tr>
-               <tr>
-                <td ><label>sumbit</label></td>
-                <td><input type="submit"></td>
-               </tr>
-            </table>
+      <fieldset>
+        <legend>Personal Info</legend>
+        <table>
+          <tr>
+            <td>
+              <label>User Name </label>
+            </td>
+            <td>
+              <input type="text" placeholder="please enter your name" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label> password </label>
+            </td>
+            <td>
+              <input type="password" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label> Email </label>
+            </td>
+            <td>
+              <input
+                type="email"
+                placeholder="enter correct email"
+                required
+                autofocus
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label> age </label>
+            </td>
+            <td>
+              <input type="number" placeholder="enter age" id="" />
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <input type="button" value="input button" />
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+      <fieldset>
+        <legend>Education</legend>
+        <table>
+          <tr>
+            <td>
+              <label> educatuion Level </label>
+            </td>
+            <td>
+              <label for="sec"> Secondary School </label>
+              <input type="radio" name="edu" id="sec" />
+            </td>
+            <td>
+              <label for="uni"> univeristy </label>
+              <input type="radio" name="edu" id="uni" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <lable> Skills </lable>
+            </td>
+            <td>
+              <label for="pas"> Passionate </label>
+              <input type="checkbox" name="skill" id="pas" />
+            </td>
+            <td>
+              <label for="enth"> Enthusastic </label>
+              <input type="checkbox" name="skill" id="enth" checked />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label> Faculty </label>
+            </td>
+            <td colspan="2">
+              <input type="text" placeholder="enter your faculty" value="faculty" readonly/>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label> Secondary School </label>
+            </td>
+            <td colspan="2">
+              <input type="text" placeholder="enter your school name" value="secondary" disabled/>
+            </td>
+          </tr>
+          <tr>
+            <td>
+                <input type="submit">
+            </td>
+            <td>
+                <input type="reset" >
+            </td>
+            <td>
+                <button>
+                    button
+                </button>
+            </td>
+          </tr>
+        </table>
+      </fieldset>
     </form>
-</body>
+    <div class="container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+    </div>
+  </body>
 </html>
