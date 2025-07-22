@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Varela Round', sans-serif;
+}
+
+body {
+background-color:rgb(249, 248, 245);
+}
+
+.hero {
+background: url('./images/slide-01.jpg') no-repeat center center/cover;
+height: 100vh;
+position: relative;
+}
+
+/* .overlay {
+  background-color: rgba(197, 179, 179, 0.921);
+  height: 100%;
+  width: 100%;
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: column;
+} */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo .icon {
+  color: rgb(240, 6, 6);
+  font-size: 32px;
+  margin-right: 8px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-links .btn-support {
+  background-color: #2ce59b;
+  padding: 8px 16px;
+  border-radius: 8px;
+  color: #ffff;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* max-width: 600px; */
+  color:white;
+  padding: 80px;
+  font-weight: 800;
+  
+}
+
+.content h1 {
+  font-size: 48px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.content .orange {
+  color: rgb(245, 13, 13);
+}
+
+.content p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.btn-discover {
+  background-color: #28d986;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.btn-contact {
+  background-color: #f14e1d;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  color: white;
+}
+#services{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    margin-top: 50px;
+   
+    
+  
+}
+.service{
+    width:48%;
+    height:150px;
+    background-color: white;
+    display:flex;
+    flex-flow: row wrap;
+     margin-bottom: 20px;
+
+    
+}
+.service-logo{
+    width: 50%;
+    height:50%
+}
+.service-logo i{
+    font-size: 50px;
+    color:#43ba7f;
+    margin:50px;
+}
+
+.service-content{
+    width: 50%;
+    height: 50%;
+    margin-top:20px;
+}

@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  padding: 20px 0;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.container {
+  width: 850px;
+  height: 500px;
+  border: 2px solid black;
+  position: relative;
+  background: url("./img/clouds.jpg") no-repeat center ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.pyramid-left-left {
+  clip-path: polygon(26% 48%, 5% 89%, 34% 91%);
+  background-color: goldenrod;
+  width: 350px;
+  height: 250px;
+  position: absolute;
+  top: 250px;
+  left: 310px;
+}
+
+.pyramid-left-right {
+  clip-path: polygon(26% 48%, 33% 90%, 40% 73%);
+  background-color: yellow;
+  width: 350px;
+  height: 250px;
+  position: absolute;
+  top: 250px;
+  left: 310px;
+}
+
+.pyramid-right-left {
+  clip-path: polygon(63% 24%, 33% 91%, 80% 92%);
+  background-color: goldenrod;
+  width: 350px;
+  height: 260px;
+  position: absolute;
+  left: 300px;
+  top: 250px;
+}
+
+.pyramid-right-right {
+  clip-path: polygon(63% 24%, 80% 92%, 97% 94%);
+  background-color: yellow;
+  width: 350px;
+  height: 270px;
+  position: absolute;
+  left: 300px;
+  top: 245px;
+}
+
+.desert {
+  clip-path: polygon(0 89%, 100% 94%, 100% 100%, 0 100%);
+  width: 850px;
+  height: 350px;
+  background-color: rgb(250, 239, 86);
+  position: absolute;
+  top: 150px;
+}

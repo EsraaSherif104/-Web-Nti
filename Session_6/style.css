@@ -1,0 +1,293 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+:root
+{
+    font-size:30px;
+    --hight:calc(50% - 10px);
+    --clr-one:#7fa31d;
+    --clr-two:#d13af7;
+}
+body{
+    font-size:15px;
+    width:80vw;
+    height: 90vh;
+    /* border:solid; */
+    margin:5vh 10vw;
+}
+p
+{
+    font-size: 0.5rem;
+    width:var(--wdth);
+    /* border:solid; */
+    /* background-color: var(--clr-one); */
+
+}
+h1
+{
+    color:var(--clr-one)
+}
+.container
+{
+    display: flex;
+    width:90%;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ 
+}
+.left
+{
+    display: flex;
+    flex-direction: column;
+    height: var(--hight);
+    width:30%;
+    height: 100%;
+    justify-content: space-between;
+}
+.left div
+{
+    width:100%;
+    height: var(--hight);
+    border:solid;
+    border-radius: 5px;;
+}
+.right
+{
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-between;
+    width:calc(70% - 10px);
+    height:100%;
+}
+.top
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width:100%;
+    height: calc(80% - 10px);
+}
+.right-2
+{
+    width:30%;
+    height: 100%;
+    border:solid;
+    border-radius: 5px;
+}
+.left-2
+{
+    display: flex;
+    flex-direction: column;
+    width: calc(70% - 10px);
+    height: 100%;
+    justify-content: space-between;
+
+}
+.top-left
+{
+    width:100%;
+    border:solid;
+    border-radius: 5px;
+    height: var(--hight);
+}
+.bottom-left
+{
+    width:100%;
+    height: var(--hight);
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-left div
+{
+    width:var(--hight);
+    height: 100%;
+    border:solid;
+    border-radius: 5px;
+}
+div p
+{
+    color:red;
+    background-color: lightpink;
+    border:solid;
+}
+div>p
+{
+    font-family: 'Courier New', Courier, monospace,serif;
+}
+div+p
+{
+    color:green;
+}
+div~p
+{
+    border:dashed;
+}
+a:link
+{
+    color:red;
+    text-decoration: none;
+}
+a:visited
+{
+    color:green;
+    background:rgba(0, 128, 0, 0.194)
+}
+a:active
+{
+    color:chocolate
+}
+a:hover
+{
+    font-size:2em;
+}
+/* p:hover
+{
+    background-color: lightgoldenrodyellow;
+    width:50%;
+    font-size: 2em;;
+} */
+ p::first-letter
+ {
+    color:red;
+    font-size:3rem;
+ }
+ p::first-line
+ {
+    text-decoration: underline;
+    font-weight: bolder;
+    font-style: italic;
+ }
+ p::selection
+ {
+    background:rgb(224, 129, 129);
+    color:white;
+ }
+ p::before
+ {
+    content:'';
+    margin-right:10px;
+    /* border:solid; */
+    border-radius: 50%;
+    display: inline-block;
+    height: 100px;
+    width: 50px;
+    line-height: 100px;
+    padding-left:40px;
+    font-size:2rem
+ }
+ p::after
+ {
+    content:'bye'
+ }
+ input::placeholder
+ {
+    color:red;
+    font-size:10px;
+ }
+ input[type='text']::placeholder
+ {
+    color:blue;
+ }
+ input[type=checkbox]:checked+label
+ {
+    text-decoration: line-through;
+ }
+ input[type=checkbox]:checked ~ #demo
+ {
+    display: none;
+ }
+ #demo
+ {
+    width:100%;
+    height:auto;
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+ }
+
+/* 
+div
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border:solid 1px;
+    justify-content: space-between;
+    align-content: space-between;
+    border-radius: 5px;
+
+
+}
+.container
+{
+    height:400px;
+    width:70%;
+    margin: auto;
+    background-color: antiquewhite;
+    border:none;
+}
+.col-left
+{
+    height: 100%;
+    width:20%;
+    border:none;
+
+}
+.col-left div
+{
+    height: calc(50% - 10px);
+    background-color: beige;
+    width:100%;
+       
+
+}
+.col-right
+{
+    height: 100%;
+    width: calc(80% - 10px);
+}
+.top
+{
+    height: calc(80% - 10px);
+    width:100%;
+}
+.bottom
+{
+    height: 20%;
+    width:100%
+}
+.top-left
+{
+    height: 100%;
+    width:calc(80% - 10px)
+}
+.top-right
+{
+    width: 20%;
+    height: 100%;
+}
+.top-left div
+{
+    width:100%;
+    height: calc(50% - 10px);
+}
+.top-left div div
+{
+    width:calc(50% - 10px);
+    height: 100%;
+
+}
+.bottom div:first-child
+{
+    width:20%;
+    height: 100%;
+}
+.bottom div:last-child
+{
+    width:calc(80% - 10px);
+    height: 100%;
+} */
